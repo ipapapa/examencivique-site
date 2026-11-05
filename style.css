@@ -6,6 +6,8 @@ p, li { line-height: 1.55; font-size: 15px; }
 .muted { color: #5a6a86; font-size: 14px; }
 .brand { color: #ed9e2e; font-weight: 700; letter-spacing: .4px; }
 .note { background: #f2f4f8; border-radius: 12px; padding: 12px 14px; }
+.download { margin: 20px 0; }
+.appstore { display: inline-block; background: #1c2945; color: #fff; padding: 12px 20px; border-radius: 12px; text-decoration: none; font-weight: 600; }
 nav a { margin-right: 14px; }
 hr { border: none; border-top: 1px solid #e3e7ee; margin: 40px 0; }
 a { color: #334a73; }
