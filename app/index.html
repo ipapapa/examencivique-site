@@ -3,18 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Examen civique — App Store</title>
+<title>Examen civique — Télécharger</title>
 <link rel="stylesheet" href="../style.css">
-<meta http-equiv="refresh" content="0; url=https://apps.apple.com/us/app/examen-civique-r%C3%A9vision/id6826996241">
-<script>window.location.replace("https://apps.apple.com/us/app/examen-civique-r%C3%A9vision/id6826996241");</script>
+<script>
+var ua = navigator.userAgent || "";
+if (/Android/i.test(ua)) {
+  window.location.replace("https://play.google.com/store/apps/details?id=com.anavasis.examencivique");
+} else if (/iPhone|iPad|iPod/i.test(ua)) {
+  window.location.replace("https://apps.apple.com/us/app/examen-civique-r%C3%A9vision/id6826996241");
+}
+</script>
 </head>
 <body>
 <main>
   <p class="brand">EXAMEN CIVIQUE</p>
-  <h1>Redirection vers l'App Store…</h1>
-  <p>Si rien ne se passe, touchez le bouton ci-dessous :</p>
-  <p class="download"><a class="appstore" href="https://apps.apple.com/us/app/examen-civique-r%C3%A9vision/id6826996241">Télécharger dans l'App Store</a></p>
-  <p class="muted">L'application est disponible uniquement sur iPhone et iPad. There is no Android version yet.</p>
+  <h1>Téléchargez l'application</h1>
+  <p>Choisissez votre boutique :</p>
+  <p class="download"><a class="appstore" href="https://apps.apple.com/us/app/examen-civique-r%C3%A9vision/id6826996241">Télécharger dans l'App Store</a> <a class="googleplay" href="https://play.google.com/store/apps/details?id=com.anavasis.examencivique">Télécharger sur Google Play</a></p>
+  <p class="muted">L'application est disponible sur iPhone, iPad et Android.</p>
   <p><a href="../">Retour à l'accueil</a></p>
 </main>
 </body>
